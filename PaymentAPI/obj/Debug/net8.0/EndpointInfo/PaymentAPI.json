@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "PaymentAPI",
-    "version": "1.0"
+    "title": "Payment API",
+    "version": "v1"
   },
   "paths": {
     "/api/auth/login": {
@@ -129,7 +129,7 @@
         }
       }
     },
-    "/api/reports/payments": {
+    "/payments": {
       "get": {
         "tags": [
           "Reports"
@@ -149,22 +149,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "FromDate",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          },
-          {
-            "name": "ToDate",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
             }
           }
         ],
@@ -175,7 +159,7 @@
         }
       }
     },
-    "/api/reports/card-balances": {
+    "/card-balances": {
       "get": {
         "tags": [
           "Reports"
@@ -195,22 +179,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
-            }
-          },
-          {
-            "name": "FromDate",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          },
-          {
-            "name": "ToDate",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
             }
           }
         ],
@@ -280,6 +248,10 @@
           },
           "isValid": {
             "type": "boolean"
+          },
+          "cvv": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -349,6 +321,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Enter 'Bearer' [space] and then your valid JWT token.\nExample: Bearer eyJhbGciOiJIUzI1NiIsInR...",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

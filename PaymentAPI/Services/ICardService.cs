@@ -4,6 +4,6 @@ namespace PaymentAPI.Services
 {
     public interface ICardService
     {
-        bool ValidateCard(Card card);
+        public (bool IsValid, string Message) ValidateCard(Card card);
     }
 }

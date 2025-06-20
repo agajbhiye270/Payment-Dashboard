@@ -6,9 +6,9 @@ using PaymentAPI.Services;
 
 namespace PaymentAPI.Controllers
 {
-    [Authorize(Roles = "Admin,Manager")]
-    [ApiController]
-    [Route("api/reports")]
+    //[Authorize(Roles = "Admin,Manager")]
+    //[ApiController]
+    //[Route("api/reports")]
     public class ReportsController : ControllerBase
     {
         private readonly IPaymentService _service;

@@ -10,7 +10,8 @@ public class TokenService : ITokenService
     private readonly IConfiguration _config;
     private readonly Dictionary<string, (string Password, string[] Roles)> _testUsers = new()
 {
-    { "admin", ("admin123", new[] { "Admin", "Manager" }) },
+    { "admin", ("admin123", new[] { "Admin" }) },
+    { "manager", ("manager123", new[] { "Manager" }) },
     { "user", ("user123", new[] { "User" }) }
 };
 

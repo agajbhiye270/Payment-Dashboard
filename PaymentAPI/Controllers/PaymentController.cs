@@ -7,7 +7,7 @@ namespace PaymentAPI.Controllers
 {
         [ApiController]
         [Route("api/payment")]
-        [Authorize]  // Require JWT authentication
+        
         public class PaymentController : ControllerBase
         {
             private readonly IPaymentService _paymentService;

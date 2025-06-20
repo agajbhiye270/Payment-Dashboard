@@ -16,9 +16,12 @@ namespace PaymentAPI.Controllers
         [HttpPost("validate")]
         public IActionResult ValidateCard([FromBody] Card card)
         {
-            if (_cardService.ValidateCard(card))
-                return Ok(new { isValid = true });
-            return BadRequest(new { isValid = false });
+            var result = _cardService.ValidateCard(card);
+
+            if (result.IsValid)
+                return Ok(new { isValid = true, message = result.Message });
+
+            return BadRequest(new { isValid = false, message = result.Message });
         }
     }
 }

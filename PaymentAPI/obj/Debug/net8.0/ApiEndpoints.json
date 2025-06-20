@@ -66,7 +66,7 @@
   {
     "ContainingType": "PaymentAPI.Controllers.ReportsController",
     "Method": "GetCardReport",
-    "RelativePath": "api/reports/card-balances",
+    "RelativePath": "card-balances",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -79,16 +79,6 @@
       {
         "Name": "PageSize",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "FromDate",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "ToDate",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],
@@ -97,7 +87,7 @@
   {
     "ContainingType": "PaymentAPI.Controllers.ReportsController",
     "Method": "GetPaymentReport",
-    "RelativePath": "api/reports/payments",
+    "RelativePath": "payments",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -110,16 +100,6 @@
       {
         "Name": "PageSize",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "FromDate",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
-        "Name": "ToDate",
-        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],
