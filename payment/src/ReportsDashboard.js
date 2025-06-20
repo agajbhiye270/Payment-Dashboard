@@ -1,34 +1,30 @@
-import React, { useEffect, useState } from "react";
-import api from "./api";
+import React, { useState } from "react";
+import PaymentReport from "./PaymentReport";
+import CardBalanceReport from "./CardBalanceReport";
 
 export default function ReportsDashboard() {
-  const [payments, setPayments] = useState([]);
-  const [cards, setCards] = useState([]);
-
-  useEffect(() => {
-    const fetchReports = async () => {
-      try {
-        const [pRes, cRes] = await Promise.all([
-          api.get("/reports/payments"),
-          api.get("/reports/card-balances"),
-        ]);
-        setPayments(pRes.data.items || []);
-        setCards(cRes.data.items || []);
-      } catch {
-        console.error("Failed to load reports");
-      }
-    };
-
-    fetchReports();
-  }, []);
+  const [reportType, setReportType] = useState("payment");
 
   return (
     <div>
-      <h3>Payments</h3>
-      <ul>{payments.map(p => <li key={p.transactionId}>{p.transactionId} - {p.amount}</li>)}</ul>
+      <div className="btn-group mb-3">
+        <button
+          className={`btn btn-outline-primary ${reportType === "payment" ? "active" : ""}`}
+          onClick={() => setReportType("payment")}
+        >
+          Payment Report
+        </button>
+        <button
+          className={`btn btn-outline-secondary ${reportType === "balance" ? "active" : ""}`}
+          onClick={() => setReportType("balance")}
+        >
+          Card Balances
+        </button>
+      </div>
 
-      <h3>Card Balances</h3>
-      <ul>{cards.map(c => <li key={c.cardNumber}>{c.cardNumber} - ${c.balance}</li>)}</ul>
+      {/* Report Viewer */}
+      {reportType === "payment" && <PaymentReport />}
+      {reportType === "balance" && <CardBalanceReport />}
     </div>
   );
 }
