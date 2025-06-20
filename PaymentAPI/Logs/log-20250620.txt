@@ -1,0 +1,516 @@
+2025-06-20 10:08:07.393 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 10:08:08.197 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 10:08:08.199 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 10:08:08.379 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 10:08:08.380 +04:00 [INF] Hosting environment: Development
+2025-06-20 10:08:08.382 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 10:08:10.789 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 10:08:11.325 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 142.0214 ms
+2025-06-20 10:08:11.345 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 603.4352ms
+2025-06-20 10:08:11.411 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 10:08:11.411 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 10:08:11.427 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 16.1382ms
+2025-06-20 10:08:11.509 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.6362ms
+2025-06-20 10:08:11.682 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 10:08:11.743 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 51.0452 ms
+2025-06-20 10:08:11.750 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.6282ms
+2025-06-20 10:08:28.459 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 49
+2025-06-20 10:08:28.472 +04:00 [INF] CORS policy execution failed.
+2025-06-20 10:08:28.473 +04:00 [INF] Request origin https://localhost:7257 does not have permission to access the resource.
+2025-06-20 10:08:28.540 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 10:08:28.585 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 10:11:19.692 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 10:11:20.148 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 10:11:20.150 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 10:11:20.256 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 10:11:20.257 +04:00 [INF] Hosting environment: Development
+2025-06-20 10:11:20.258 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 10:11:21.779 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 10:11:22.813 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 127.1779 ms
+2025-06-20 10:11:22.886 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 1126.5557ms
+2025-06-20 10:11:22.940 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 10:11:22.940 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 10:11:22.961 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 21.824ms
+2025-06-20 10:11:23.037 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.3713ms
+2025-06-20 10:11:23.319 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 10:11:23.356 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 32.1003 ms
+2025-06-20 10:11:23.360 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.0879ms
+2025-06-20 10:11:43.284 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 49
+2025-06-20 10:11:43.298 +04:00 [INF] CORS policy execution failed.
+2025-06-20 10:11:43.299 +04:00 [INF] Request origin https://localhost:7257 does not have permission to access the resource.
+2025-06-20 10:11:43.370 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 10:11:43.422 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 10:14:58.597 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 10:14:59.133 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 10:14:59.135 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 10:14:59.371 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 10:14:59.373 +04:00 [INF] Hosting environment: Development
+2025-06-20 10:14:59.373 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 10:15:02.635 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 10:15:02.990 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 119.0296 ms
+2025-06-20 10:15:03.002 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 385.9656ms
+2025-06-20 10:15:03.075 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 10:15:03.075 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 10:15:03.094 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 19.0151ms
+2025-06-20 10:15:03.189 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.9263ms
+2025-06-20 10:15:03.457 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 10:15:03.476 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.6976 ms
+2025-06-20 10:15:03.479 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.3129ms
+2025-06-20 10:15:26.592 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 49
+2025-06-20 10:15:26.744 +04:00 [INF] CORS policy execution failed.
+2025-06-20 10:15:26.749 +04:00 [INF] Request origin https://localhost:7257 does not have permission to access the resource.
+2025-06-20 10:15:27.605 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 10:15:27.817 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 10:15:41.390 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-20 10:15:41.483 +04:00 [INF] Executed action AuthController.Login (PaymentAPI) in 13642.4783ms
+2025-06-20 10:15:41.507 +04:00 [INF] Executed endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 10:15:41.509 +04:00 [INF] HTTP POST /api/auth/login responded 200 in 14822.6339 ms
+2025-06-20 10:15:41.514 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/auth/login - 200 null application/json; charset=utf-8 14924.0882ms
+2025-06-20 10:41:18.476 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 10:41:18.856 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 10:41:18.858 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 10:41:18.990 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 10:41:18.992 +04:00 [INF] Hosting environment: Development
+2025-06-20 10:41:18.994 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 10:41:20.834 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 10:41:21.083 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 99.7523 ms
+2025-06-20 10:41:21.097 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 270.6222ms
+2025-06-20 10:41:21.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 10:41:21.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 10:41:21.153 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 13.9585ms
+2025-06-20 10:41:21.225 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.9987ms
+2025-06-20 10:41:21.312 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 10:41:21.360 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 34.1809 ms
+2025-06-20 10:41:21.364 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.1894ms
+2025-06-20 10:41:46.903 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 10:41:47.342 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 10:41:47.344 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 10:41:47.484 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 10:41:47.485 +04:00 [INF] Hosting environment: Development
+2025-06-20 10:41:47.486 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 10:41:49.050 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 10:41:49.570 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 232.6449 ms
+2025-06-20 10:41:49.600 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 567.1638ms
+2025-06-20 10:41:49.606 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 10:41:49.610 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 10:41:49.637 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 30.6134ms
+2025-06-20 10:41:49.773 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.5386ms
+2025-06-20 10:41:49.901 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 10:41:49.944 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 29.8723 ms
+2025-06-20 10:41:49.947 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.596ms
+2025-06-20 10:43:52.264 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 10:43:52.842 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 10:43:52.845 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 10:43:53.018 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 10:43:53.020 +04:00 [INF] Hosting environment: Development
+2025-06-20 10:43:53.021 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 10:43:53.941 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 10:43:54.887 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 110.4256 ms
+2025-06-20 10:43:54.901 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 972.9467ms
+2025-06-20 10:43:54.916 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 10:43:54.916 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 10:43:54.927 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 11.6998ms
+2025-06-20 10:43:54.998 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.7833ms
+2025-06-20 10:43:55.111 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 10:43:55.142 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 21.0922 ms
+2025-06-20 10:43:55.147 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.436ms
+2025-06-20 10:54:20.036 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 50
+2025-06-20 10:54:20.134 +04:00 [INF] CORS policy execution failed.
+2025-06-20 10:54:20.135 +04:00 [INF] Request origin https://localhost:7257 does not have permission to access the resource.
+2025-06-20 10:54:20.314 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 10:54:20.379 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 10:54:27.347 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-06-20 10:54:27.358 +04:00 [INF] Executed action AuthController.Login (PaymentAPI) in 6972.2307ms
+2025-06-20 10:54:27.361 +04:00 [INF] Executed endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 10:54:27.365 +04:00 [INF] HTTP POST /api/auth/login responded 401 in 7271.3286 ms
+2025-06-20 10:54:27.369 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/auth/login - 401 null text/plain; charset=utf-8 7338.4051ms
+2025-06-20 11:22:31.808 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 11:22:32.233 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 11:22:32.235 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 11:22:32.392 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 11:22:32.395 +04:00 [INF] Hosting environment: Development
+2025-06-20 11:22:32.397 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 11:22:34.174 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 11:22:35.195 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 175.3685 ms
+2025-06-20 11:22:35.224 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 1070.4905ms
+2025-06-20 11:22:35.248 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 11:22:35.249 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 11:22:35.313 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 63.7402ms
+2025-06-20 11:22:35.400 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.221ms
+2025-06-20 11:22:35.477 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 11:22:35.514 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 26.8759 ms
+2025-06-20 11:22:35.519 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.9486ms
+2025-06-20 12:12:52.045 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:12:52.276 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:12:52.303 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 129.5484 ms
+2025-06-20 12:12:52.313 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 283.7499ms
+2025-06-20 12:12:52.328 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 40
+2025-06-20 12:12:52.363 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:12:52.940 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 12:12:53.124 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 12:13:06.520 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-20 12:13:06.611 +04:00 [INF] Executed action AuthController.Login (PaymentAPI) in 13474.9303ms
+2025-06-20 12:13:06.616 +04:00 [INF] Executed endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 12:13:06.617 +04:00 [INF] HTTP POST /api/auth/login responded 200 in 14258.1430 ms
+2025-06-20 12:13:06.621 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/auth/login - 200 null application/json; charset=utf-8 14293.0533ms
+2025-06-20 12:13:06.740 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:13:06.740 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:13:06.750 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:13:06.753 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:13:06.753 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 4.1745 ms
+2025-06-20 12:13:06.755 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 1.7279 ms
+2025-06-20 12:13:06.759 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 19.3797ms
+2025-06-20 12:13:06.774 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 33.8062ms
+2025-06-20 12:13:06.773 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:13:06.791 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:13:06.818 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:13:06.818 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:13:07.017 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:13:07.017 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:13:07.035 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:13:07.035 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:13:07.037 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 223.3831 ms
+2025-06-20 12:13:07.038 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 226.6028 ms
+2025-06-20 12:13:07.040 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 249.5074ms
+2025-06-20 12:13:07.042 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 269.5124ms
+2025-06-20 12:17:40.048 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:17:40.048 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:17:40.101 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:17:40.101 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:17:40.109 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 26.7640 ms
+2025-06-20 12:17:40.109 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 26.8854 ms
+2025-06-20 12:17:40.114 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 74.309ms
+2025-06-20 12:17:40.119 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 78.9336ms
+2025-06-20 12:17:40.145 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:17:40.145 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:17:40.169 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:17:40.170 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:17:40.242 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:17:40.242 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:17:40.248 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:17:40.248 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:17:40.250 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 88.0025 ms
+2025-06-20 12:17:40.252 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 90.0650 ms
+2025-06-20 12:17:40.256 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 116.9418ms
+2025-06-20 12:17:40.259 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 120.8175ms
+2025-06-20 12:20:14.526 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:20:14.526 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:20:14.554 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:14.558 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:14.558 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 11.6965 ms
+2025-06-20 12:20:14.560 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 2.7631 ms
+2025-06-20 12:20:14.569 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 41.5389ms
+2025-06-20 12:20:14.596 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:20:14.602 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 79.2408ms
+2025-06-20 12:20:14.656 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:20:14.701 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:14.710 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:14.726 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:20:14.726 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:20:14.729 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:20:14.730 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:20:14.733 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 33.9147 ms
+2025-06-20 12:20:14.737 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 27.2539 ms
+2025-06-20 12:20:14.746 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 150.286ms
+2025-06-20 12:20:14.750 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 96.5502ms
+2025-06-20 12:20:52.745 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:20:52.745 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:20:52.819 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:52.837 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:52.837 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 18.9341 ms
+2025-06-20 12:20:52.839 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 2.0445 ms
+2025-06-20 12:20:52.844 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 100.0486ms
+2025-06-20 12:20:52.885 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 141.1888ms
+2025-06-20 12:20:52.885 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:20:52.901 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:20:52.969 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:52.975 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:20:52.978 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:20:52.978 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:20:52.979 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:20:52.981 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:20:52.983 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 13.8846 ms
+2025-06-20 12:20:52.984 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 10.3560 ms
+2025-06-20 12:20:52.989 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 104.1025ms
+2025-06-20 12:20:52.993 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 95.8305ms
+2025-06-20 12:21:35.192 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:21:35.192 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:21:35.220 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:21:35.224 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:21:35.227 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 8.1228 ms
+2025-06-20 12:21:35.228 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 3.8179 ms
+2025-06-20 12:21:35.248 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:21:35.233 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 41.3854ms
+2025-06-20 12:21:35.257 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 65.2394ms
+2025-06-20 12:21:35.274 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:21:35.287 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:21:35.310 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:21:35.312 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:21:35.313 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:21:35.315 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:21:35.317 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:21:35.319 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 32.0202 ms
+2025-06-20 12:21:35.321 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 11.6302 ms
+2025-06-20 12:21:35.332 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 86.0951ms
+2025-06-20 12:21:35.332 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 61.6131ms
+2025-06-20 12:24:54.265 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/payment/refund - null null
+2025-06-20 12:24:54.282 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:24:54.291 +04:00 [INF] HTTP OPTIONS /api/payment/refund responded 204 in 11.8467 ms
+2025-06-20 12:24:54.297 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/payment/refund - 204 null null 32.2797ms
+2025-06-20 12:24:54.302 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/payment/refund - application/json 27
+2025-06-20 12:24:54.314 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:24:54.350 +04:00 [INF] Executing endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:24:54.471 +04:00 [INF] Route matched with {action = "Refund", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refund(PaymentAPI.DTOs.RefundRequest) on controller PaymentAPI.Controllers.PaymentController (PaymentAPI).
+2025-06-20 12:24:54.899 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/payment/refund - application/json 27
+2025-06-20 12:24:54.906 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:24:54.909 +04:00 [INF] Executing endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:24:54.913 +04:00 [INF] Route matched with {action = "Refund", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refund(PaymentAPI.DTOs.RefundRequest) on controller PaymentAPI.Controllers.PaymentController (PaymentAPI).
+2025-06-20 12:24:55.405 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-20 12:24:55.405 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-20 12:24:55.506 +04:00 [INF] Executed action PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI) in 589.5166ms
+2025-06-20 12:24:55.506 +04:00 [INF] Executed action PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI) in 1029.1293ms
+2025-06-20 12:24:55.511 +04:00 [INF] Executed endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:24:55.514 +04:00 [INF] Executed endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:24:55.516 +04:00 [INF] HTTP POST /api/payment/refund responded 400 in 610.4275 ms
+2025-06-20 12:24:55.519 +04:00 [INF] HTTP POST /api/payment/refund responded 400 in 1205.4980 ms
+2025-06-20 12:24:55.528 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/payment/refund - 400 null application/problem+json; charset=utf-8 629.2112ms
+2025-06-20 12:24:55.529 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/payment/refund - 400 null application/problem+json; charset=utf-8 1226.1357ms
+2025-06-20 12:25:01.484 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/payment/refund - null null
+2025-06-20 12:25:01.493 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:25:01.496 +04:00 [INF] HTTP OPTIONS /api/payment/refund responded 204 in 3.5839 ms
+2025-06-20 12:25:01.501 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/payment/refund - 204 null null 17.8437ms
+2025-06-20 12:25:01.504 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/payment/refund - application/json 32
+2025-06-20 12:25:01.512 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:25:01.515 +04:00 [INF] Executing endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:25:01.519 +04:00 [INF] Route matched with {action = "Refund", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refund(PaymentAPI.DTOs.RefundRequest) on controller PaymentAPI.Controllers.PaymentController (PaymentAPI).
+2025-06-20 12:25:01.532 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-20 12:25:01.537 +04:00 [INF] Executed action PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI) in 14.5929ms
+2025-06-20 12:25:01.541 +04:00 [INF] Executed endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:25:01.545 +04:00 [INF] HTTP POST /api/payment/refund responded 400 in 33.5614 ms
+2025-06-20 12:25:01.551 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/payment/refund - 400 null application/problem+json; charset=utf-8 47.3531ms
+2025-06-20 12:25:02.506 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/payment/refund - application/json 32
+2025-06-20 12:25:02.513 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:25:02.515 +04:00 [INF] Executing endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:25:02.517 +04:00 [INF] Route matched with {action = "Refund", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refund(PaymentAPI.DTOs.RefundRequest) on controller PaymentAPI.Controllers.PaymentController (PaymentAPI).
+2025-06-20 12:25:02.523 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-20 12:25:02.527 +04:00 [INF] Executed action PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI) in 6.1331ms
+2025-06-20 12:25:02.531 +04:00 [INF] Executed endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:25:02.534 +04:00 [INF] HTTP POST /api/payment/refund responded 400 in 21.1518 ms
+2025-06-20 12:25:02.540 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/payment/refund - 400 null application/problem+json; charset=utf-8 33.4082ms
+2025-06-20 12:25:10.627 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/payment/refund - null null
+2025-06-20 12:25:10.634 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:25:10.635 +04:00 [INF] HTTP OPTIONS /api/payment/refund responded 204 in 1.9348 ms
+2025-06-20 12:25:10.640 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/payment/refund - 204 null null 13.0219ms
+2025-06-20 12:25:10.643 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/payment/refund - application/json 31
+2025-06-20 12:25:10.673 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:25:10.677 +04:00 [INF] Executing endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:25:10.681 +04:00 [INF] Route matched with {action = "Refund", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refund(PaymentAPI.DTOs.RefundRequest) on controller PaymentAPI.Controllers.PaymentController (PaymentAPI).
+2025-06-20 12:25:10.688 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-20 12:25:10.691 +04:00 [INF] Executed action PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI) in 5.6468ms
+2025-06-20 12:25:10.696 +04:00 [INF] Executed endpoint 'PaymentAPI.Controllers.PaymentController.Refund (PaymentAPI)'
+2025-06-20 12:25:10.705 +04:00 [INF] HTTP POST /api/payment/refund responded 400 in 32.8547 ms
+2025-06-20 12:25:10.740 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/payment/refund - 400 null application/problem+json; charset=utf-8 97.4127ms
+2025-06-20 12:26:23.478 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments?Page=2&PageSize=1 - null null
+2025-06-20 12:26:23.493 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:26:23.508 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-20 12:26:23.509 +04:00 [INF] HTTP GET /api/reports/payments responded 401 in 24.1436 ms
+2025-06-20 12:26:23.513 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments?Page=2&PageSize=1 - 401 0 null 35.5353ms
+2025-06-20 12:26:58.177 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/payment/process - application/json 44
+2025-06-20 12:26:58.203 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:26:58.206 +04:00 [INF] Request origin https://localhost:7257 does not have permission to access the resource.
+2025-06-20 12:26:58.211 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-06-20 12:26:58.214 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-06-20 12:26:58.216 +04:00 [INF] HTTP POST /api/payment/process responded 401 in 13.6956 ms
+2025-06-20 12:26:58.220 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/payment/process - 401 0 null 46.951ms
+2025-06-20 12:43:32.685 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 12:43:33.556 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 12:43:33.561 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 12:43:33.892 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 12:43:33.922 +04:00 [INF] Hosting environment: Development
+2025-06-20 12:43:33.924 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 12:43:35.688 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 12:43:36.795 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 336.7517 ms
+2025-06-20 12:43:36.887 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 12:43:36.955 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 12:43:37.226 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 1547.51ms
+2025-06-20 12:43:37.407 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 520.0198ms
+2025-06-20 12:43:37.660 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 713.9353ms
+2025-06-20 12:43:37.780 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 12:43:38.755 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 583.5300 ms
+2025-06-20 12:43:38.760 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 979.4828ms
+2025-06-20 12:44:08.366 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:44:08.410 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:44:08.412 +04:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-06-20 12:44:08.418 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 32.5730 ms
+2025-06-20 12:44:08.424 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 57.9686ms
+2025-06-20 12:44:23.420 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:44:23.445 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:44:23.448 +04:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-06-20 12:44:23.450 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 9.7933 ms
+2025-06-20 12:44:23.457 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 37.6936ms
+2025-06-20 12:45:08.679 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:45:08.775 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:45:08.782 +04:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-06-20 12:45:08.808 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 54.4976 ms
+2025-06-20 12:45:08.842 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 168.112ms
+2025-06-20 12:46:16.304 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 49
+2025-06-20 12:46:16.396 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:46:16.400 +04:00 [INF] Request origin https://localhost:7257 does not have permission to access the resource.
+2025-06-20 12:46:17.007 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 12:46:17.277 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 12:46:25.049 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-20 12:46:25.131 +04:00 [INF] Executed action AuthController.Login (PaymentAPI) in 7833.8636ms
+2025-06-20 12:46:25.139 +04:00 [INF] Executed endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 12:46:25.142 +04:00 [INF] HTTP POST /api/auth/login responded 200 in 8759.8710 ms
+2025-06-20 12:46:25.146 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/auth/login - 200 null application/json; charset=utf-8 8853.8806ms
+2025-06-20 12:46:54.103 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:46:54.142 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:46:54.144 +04:00 [INF] Request origin http://localhost:3001 does not have permission to access the resource.
+2025-06-20 12:46:54.150 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 16.0218 ms
+2025-06-20 12:46:54.157 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 64.6392ms
+2025-06-20 12:48:36.985 +04:00 [INF] User profile is available. Using 'C:\Users\Arnav\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-20 12:48:38.972 +04:00 [INF] Now listening on: https://localhost:7257
+2025-06-20 12:48:39.006 +04:00 [INF] Now listening on: http://localhost:5292
+2025-06-20 12:48:39.278 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-20 12:48:39.325 +04:00 [INF] Hosting environment: Development
+2025-06-20 12:48:39.327 +04:00 [INF] Content root path: C:\ASMITA\Lenador\PaymentAPI
+2025-06-20 12:48:42.291 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/index.html - null null
+2025-06-20 12:48:43.403 +04:00 [INF] HTTP GET /swagger/index.html responded 200 in 328.8645 ms
+2025-06-20 12:48:43.491 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_vs/browserLink - null null
+2025-06-20 12:48:43.491 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-20 12:48:43.854 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/index.html - 200 null text/html;charset=utf-8 1582.0664ms
+2025-06-20 12:48:44.252 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_framework/aspnetcore-browser-refresh.js - 200 16505 application/javascript; charset=utf-8 752.4815ms
+2025-06-20 12:48:44.306 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/_vs/browserLink - 200 null text/javascript; charset=UTF-8 814.5542ms
+2025-06-20 12:48:44.495 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - null null
+2025-06-20 12:48:44.689 +04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 47.9041 ms
+2025-06-20 12:48:44.755 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 259.4147ms
+2025-06-20 12:49:14.304 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:49:14.425 +04:00 [INF] CORS policy execution failed.
+2025-06-20 12:49:14.429 +04:00 [INF] Request origin http://192.168.1.13:3001 does not have permission to access the resource.
+2025-06-20 12:49:14.435 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 64.4677 ms
+2025-06-20 12:49:14.444 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 148.4986ms
+2025-06-20 12:49:37.376 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/auth/login - null null
+2025-06-20 12:49:38.223 +04:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-06-20 12:49:38.269 +04:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-06-20 12:49:38.272 +04:00 [INF] HTTP GET /api/auth/login responded 405 in 666.6291 ms
+2025-06-20 12:49:38.343 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/auth/login - 405 0 null 967.1862ms
+2025-06-20 12:50:33.808 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/auth/login - null null
+2025-06-20 12:50:33.971 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:50:34.050 +04:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 159.1043 ms
+2025-06-20 12:50:34.081 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/auth/login - 204 null null 286.4284ms
+2025-06-20 12:50:34.218 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/auth/login - application/json 40
+2025-06-20 12:50:34.378 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:50:34.418 +04:00 [INF] Executing endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 12:50:34.851 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PaymentAPI.Models.LoginRequest) on controller AuthController (PaymentAPI).
+2025-06-20 12:50:47.401 +04:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-20 12:50:47.520 +04:00 [INF] Executed action AuthController.Login (PaymentAPI) in 12655.5486ms
+2025-06-20 12:50:47.533 +04:00 [INF] Executed endpoint 'AuthController.Login (PaymentAPI)'
+2025-06-20 12:50:47.546 +04:00 [INF] HTTP POST /api/auth/login responded 200 in 13167.6483 ms
+2025-06-20 12:50:47.555 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/auth/login - 200 null application/json; charset=utf-8 13335.3652ms
+2025-06-20 12:51:26.163 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:51:26.163 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:51:26.183 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:26.183 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:26.187 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 7.5077 ms
+2025-06-20 12:51:26.189 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 9.7190 ms
+2025-06-20 12:51:26.191 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 31.3198ms
+2025-06-20 12:51:26.195 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:51:26.193 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 32.9374ms
+2025-06-20 12:51:26.216 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:51:26.235 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:26.235 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:26.569 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:51:26.569 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:51:26.587 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:51:26.587 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:51:26.591 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 359.9546 ms
+2025-06-20 12:51:26.593 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 361.1452 ms
+2025-06-20 12:51:26.601 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 406.8421ms
+2025-06-20 12:51:26.609 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 393.6496ms
+2025-06-20 12:51:47.132 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/card/validate - null null
+2025-06-20 12:51:47.140 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:47.143 +04:00 [INF] HTTP OPTIONS /api/card/validate responded 204 in 3.4610 ms
+2025-06-20 12:51:47.148 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/card/validate - 204 null null 15.8784ms
+2025-06-20 12:51:47.152 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7257/api/card/validate - application/json 23
+2025-06-20 12:51:47.161 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:47.166 +04:00 [INF] Executing endpoint 'PaymentAPI.Controllers.CardController.ValidateCard (PaymentAPI)'
+2025-06-20 12:51:47.217 +04:00 [INF] Route matched with {action = "ValidateCard", controller = "Card"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ValidateCard(PaymentAPI.Models.Card) on controller PaymentAPI.Controllers.CardController (PaymentAPI).
+2025-06-20 12:51:47.237 +04:00 [INF] Executed action PaymentAPI.Controllers.CardController.ValidateCard (PaymentAPI) in 15.344ms
+2025-06-20 12:51:47.245 +04:00 [INF] Executed endpoint 'PaymentAPI.Controllers.CardController.ValidateCard (PaymentAPI)'
+2025-06-20 12:51:47.256 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'PaymentAPI.Services.ICardService' while attempting to activate 'PaymentAPI.Controllers.CardController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method6(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-20 12:51:47.503 +04:00 [ERR] HTTP POST /api/card/validate responded 500 in 341.6381 ms
+2025-06-20 12:51:47.509 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7257/api/card/validate - 500 null text/plain; charset=utf-8 357.2859ms
+2025-06-20 12:51:59.495 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:51:59.495 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:51:59.509 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:59.521 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:59.526 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 16.8750 ms
+2025-06-20 12:51:59.531 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 10.3479 ms
+2025-06-20 12:51:59.541 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 47.2754ms
+2025-06-20 12:51:59.552 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:51:59.563 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 68.3084ms
+2025-06-20 12:51:59.575 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:51:59.587 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:59.598 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:51:59.604 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:51:59.604 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:51:59.608 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:51:59.609 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:51:59.611 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 24.2228 ms
+2025-06-20 12:51:59.613 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 14.8352 ms
+2025-06-20 12:51:59.617 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 64.6999ms
+2025-06-20 12:51:59.619 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 44.6858ms
+2025-06-20 12:57:53.727 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:57:53.727 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:57:53.761 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:57:53.761 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:57:53.780 +04:00 [INF] HTTP OPTIONS /api/reports/payments responded 204 in 26.0145 ms
+2025-06-20 12:57:53.780 +04:00 [INF] HTTP OPTIONS /api/reports/card-balances responded 204 in 25.6173 ms
+2025-06-20 12:57:53.796 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/payments - 204 null null 75.6949ms
+2025-06-20 12:57:53.803 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/payments - null null
+2025-06-20 12:57:53.806 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7257/api/reports/card-balances - 204 null null 85.7568ms
+2025-06-20 12:57:53.813 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7257/api/reports/card-balances - null null
+2025-06-20 12:57:53.852 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:57:53.852 +04:00 [INF] CORS policy execution successful.
+2025-06-20 12:57:53.899 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:57:53.899 +04:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|Manager)
+2025-06-20 12:57:53.902 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:57:53.903 +04:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-06-20 12:57:53.906 +04:00 [INF] HTTP GET /api/reports/card-balances responded 403 in 66.0506 ms
+2025-06-20 12:57:53.907 +04:00 [INF] HTTP GET /api/reports/payments responded 403 in 67.7985 ms
+2025-06-20 12:57:53.913 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/card-balances - 403 0 null 101.0528ms
+2025-06-20 12:57:53.915 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7257/api/reports/payments - 403 0 null 112.2309ms
